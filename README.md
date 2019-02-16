@@ -14,18 +14,23 @@ Install with NPM or Yarn to your dev dependencies:
 npm install --save-dev tslint-whitespace-before-colon
 ```
 
-and enable it in your project's `tslint.json` file:
+and include it in your project's `tslint.json` file. You can do it either by adding the package name to `extends` field:
 
 ```json
-{
   "extends": [
     "tslint-whitespace-before-colon"
-  ],
-  "rules": {
-    "whitespace-before-colon": [true, "nospace"]
-  }
-}
+  ]
 ```
+
+or by adding the package location to `rulesDirectory` field:
+
+```json
+  "rulesDirectory": [
+    "node_modules/tslint-whitespace-before-colon"
+  ]
+```
+
+Both approaches are equivalent, use whichever suits your project the most.
 
 ## Configuration
 
@@ -36,6 +41,16 @@ Rule expects a single string option indicating the required number of spaces bef
 * `"space"` requires one or more spaces
 
 If none of the above is provided, the rule will have no effect.
+
+Example configuration:
+
+```json
+  "rules": {
+    "whitespace-before-colon": [true, "nospace"]
+  }
+```
+
+### Note
 
 If a newline character (`"\n"`) is present, the rule validates regardless of the configured option, just as `typedef-whitespace` rule does.
 

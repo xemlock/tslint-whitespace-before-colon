@@ -1,10 +1,10 @@
 {
   "name": "tslint-whitespace-before-colon",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "TSLint rule for determining if a space is required or not before the colon in object literals and destructuring assignments",
   "main": "index.js",
   "scripts": {
-    "build": "tsc --project tsconfig.json --outDir dist",
+    "build": "tsc --project tsconfig.json --outDir .",
     "prepublish": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "tslint --project tsconfig.json"

@@ -71,3 +71,4 @@ yarn.lock
 
 # Release
 dist
+**/*.js
