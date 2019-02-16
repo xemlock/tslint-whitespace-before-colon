@@ -1,0 +1,10 @@
+.vscode
+.idea
+node_modules
+src
+.editorconfig
+.gitignore
+.npmignore
+.travis.yml
+tsconfig.json
+tslint.json

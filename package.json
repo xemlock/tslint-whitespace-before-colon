@@ -1,0 +1,40 @@
+{
+  "name": "tslint-whitespace-before-colon",
+  "version": "0.1.0",
+  "description": "TSLint rule for determining if a space is required or not before the colon in object literals and destructuring assignments",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --project tsconfig.json --outDir dist",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "tslint --project tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xemlock/tslint-whitespace-before-colon.git"
+  },
+  "author": "xemlock <xemlock@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xemlock/tslint-whitespace-before-colon/issues"
+  },
+  "homepage": "https://github.com/xemlock/tslint-whitespace-before-colon#readme",
+  "keywords": [
+    "tslint",
+    "tslint-plugin",
+    "custom-rules",
+    "rules",
+    "lint",
+    "linter",
+    "linting"
+  ],
+  "devDependencies": {
+    "@types/node": "^8.10.40",
+    "tslint": "^5.12.1",
+    "typescript": "^2.9.2"
+  },
+  "peerDependencies": {
+    "tslint": "^5.0.0",
+    "typescript": "^2.2.0 || ^3.0.0"
+  }
+}

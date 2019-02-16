@@ -59,3 +59,15 @@ typings/
 
 # next.js build output
 .next
+
+# System files
+.DS_Store
+Thumbs.db
+[Dd]esktop.ini
+
+# Lock files
+package-lock.json
+yarn.lock
+
+# Release
+dist
