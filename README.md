@@ -1,3 +1,7 @@
+[![NPM Version](https://img.shields.io/npm/v/tslint-whitespace-before-colon.svg)](https://www.npmjs.com/package/tslint-whitespace-before-colon)
+[![Downloads per Month](https://img.shields.io/npm/dm/tslint-whitespace-before-colon.svg)](https://www.npmjs.com/package/tslint-whitespace-before-colon)
+[![License](https://img.shields.io/npm/l/tslint-whitespace-before-colon.svg)](LICENSE)
+
 # TSLint Rule: whitespace-before-colon
 
 TSLint provides no means of controlling spaces before colon in object literals and destructuring assignments. `whitespace.check-type` checks only for space after colon, and `typedef-whitespace` works only for type definitions.
